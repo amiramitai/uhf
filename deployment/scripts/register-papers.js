@@ -25,7 +25,7 @@ const PAPERS = [
         file: "physics-core/papers/paper1/Paper1_Emergent_Inertia_LBM.pdf",
         version: "10.0-Paper1-PDF",
         label: "Paper 1 — Added-Mass Drag on Topological Defects (LBM)",
-        expectedHash: "ee7a3f1bd942ea6195103551f93bdcd60806ee173dd6a0a148ad6eef58059af4"
+        expectedHash: "8a9f87a5e3d935f5c42224caf48a8b769436d91fe370cad2c06c6f509bc38df2"
     },
     {
         file: "uhf_physics/papers/paper2/Paper2_Effective_GR_Viscoelastic.pdf",
