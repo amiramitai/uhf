@@ -1,6 +1,6 @@
 # UHF — Unified Hydrodynamic Framework
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18735435.svg)](https://doi.org/10.5281/zenodo.18735435)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19190638.svg)](https://doi.org/10.5281/zenodo.19190638)
 
 *What if Spacetime Were Fluid?*
 
