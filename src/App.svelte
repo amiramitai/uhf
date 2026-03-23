@@ -1295,7 +1295,7 @@
                             <span class="px-2 py-0.5 rounded bg-ember/10 text-ember text-[9px] font-mono">$R^2 > 0.99999999$</span>
                         </div>
                     </div>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/paper1/Paper1_Emergent_Inertia_LBM.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/physics-core/papers/paper1/Paper1_Emergent_Inertia_LBM.pdf" target="_blank" rel="noopener"
                        class="shrink-0 px-4 py-2 rounded-lg bg-ember/10 border border-ember/20 text-ember text-xs font-medium hover:bg-ember/20 transition-all">PDF ↗</a>
                 </div>
             </div>
@@ -1312,7 +1312,7 @@
                             <span class="px-2 py-0.5 rounded bg-plasma/10 text-plasma text-[9px] font-mono">NANOGrav ΔAIC = 37.69</span>
                         </div>
                     </div>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/paper2/Paper2_Effective_GR_Viscoelastic.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/physics-core/papers/paper2/Paper2_Effective_GR_Viscoelastic.pdf" target="_blank" rel="noopener"
                        class="shrink-0 px-4 py-2 rounded-lg bg-plasma/10 border border-plasma/20 text-plasma text-xs font-medium hover:bg-plasma/20 transition-all">PDF ↗</a>
                 </div>
             </div>
@@ -1329,7 +1329,7 @@
                             <span class="px-2 py-0.5 rounded bg-neonblue/10 text-neonblue text-[9px] font-mono">SNR = 4.71</span>
                         </div>
                     </div>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/paper3/Paper3_Hawking_Analogue.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/physics-core/papers/paper3/Paper3_Hawking_Analogue.pdf" target="_blank" rel="noopener"
                        class="shrink-0 px-4 py-2 rounded-lg bg-neonblue/10 border border-neonblue/20 text-neonblue text-xs font-medium hover:bg-neonblue/20 transition-all">PDF ↗</a>
                 </div>
             </div>
@@ -1355,7 +1355,7 @@
                             <span class="px-2 py-0.5 rounded bg-ember/10 text-ember text-[9px] font-mono">$\delta_c = 1.15$</span>
                         </div>
                     </div>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/Part_II_Exploratory_Extensions/paper4/Paper4_Superfluid_Cosmology.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/physics-core/papers/paper4/Paper4_Superfluid_Cosmology.pdf" target="_blank" rel="noopener"
                        class="shrink-0 px-4 py-2 rounded-lg bg-neon/10 border border-neon/20 text-neon text-xs font-medium hover:bg-neon/20 transition-all">PDF ↗</a>
                 </div>
             </div>
@@ -1372,7 +1372,7 @@
                             <span class="px-2 py-0.5 rounded bg-glow/10 text-glow text-[9px] font-mono">$\omega^* = 0.1178$</span>
                         </div>
                     </div>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/Part_II_Exploratory_Extensions/paper5/Paper5_Topological_Standard_Model.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/physics-core/papers/paper5/Paper5_Topological_Standard_Model.pdf" target="_blank" rel="noopener"
                        class="shrink-0 px-4 py-2 rounded-lg bg-glow/10 border border-glow/20 text-glow text-xs font-medium hover:bg-glow/20 transition-all">PDF ↗</a>
                 </div>
             </div>
@@ -1389,7 +1389,7 @@
                             <span class="px-2 py-0.5 rounded bg-plasma/10 text-plasma text-[9px] font-mono">$b_0 = 11$ exact</span>
                         </div>
                     </div>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/Part_II_Exploratory_Extensions/paper6/Paper6_Topological_Chromodynamics.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/physics-core/papers/paper6/Paper6_Topological_Chromodynamics.pdf" target="_blank" rel="noopener"
                        class="shrink-0 px-4 py-2 rounded-lg bg-plasma/10 border border-plasma/20 text-plasma text-xs font-medium hover:bg-plasma/20 transition-all">PDF ↗</a>
                 </div>
             </div>
@@ -1415,7 +1415,7 @@
                             <span class="px-2 py-0.5 rounded bg-ember/10 text-ember text-[9px] font-mono">$S > 2$ (classical bound violated)</span>
                         </div>
                     </div>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/Part_II_Exploratory_Extensions/paper7/Paper7_Quantum_Entanglement.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/physics-core/papers/paper7/Paper7_Quantum_Entanglement.pdf" target="_blank" rel="noopener"
                        class="shrink-0 px-4 py-2 rounded-lg bg-ember/10 border border-ember/20 text-ember text-xs font-medium hover:bg-ember/20 transition-all">PDF ↗</a>
                 </div>
             </div>

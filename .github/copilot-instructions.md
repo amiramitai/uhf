@@ -22,11 +22,11 @@ You MUST follow this exact sequence:
    shasum -a 256 UHF_Part_I_Core.md UHF_Part_II_Mathematical_Foundations.md UHF_Part_III_Standard_Model.md
    ```
 
-3. **Update the registration script** — Update the `expectedHash` values in the appropriate `scripts/register-v*.js` file to match the current hashes.
+3. **Update the registration script** — Update the `expectedHash` values in the appropriate `deployment/scripts/register-v*.js` file to match the current hashes.
 
 4. **Register on Polygon mainnet** — Run the registration script:
    ```bash
-   node scripts/register-v<VERSION>.js
+   node deployment/scripts/register-v<VERSION>.js
    ```
    Wait for all three transactions to confirm. Verify the PolygonScan links.
 
@@ -34,22 +34,22 @@ You MUST follow this exact sequence:
 
 ## Simulation Suite Policy
 
-When any files in `simulation/` are modified, you MUST also:
+When any files in `physics-core/simulations/` or `infrastructure/lbm-gpe/` are modified, you MUST also:
 
 1. **Rebuild the zip** — Run the build script:
    ```bash
-   bash scripts/build-simulation-zip.sh
+   bash deployment/scripts/build-simulation-zip.sh
    ```
-   This compiles `simulation/` sources into `out/UHF_Simulation_Suite.zip` (the `out/` directory is `.gitignore`'d).
+   This compiles simulation sources into `out/UHF_Simulation_Suite.zip` (the `out/` directory is `.gitignore`'d).
 
 2. **Compute the zip SHA-256** — The build script prints it, or run:
    ```bash
    shasum -a 256 out/UHF_Simulation_Suite.zip
    ```
 
-3. **Update and run the registration script** — Update `EXPECTED_HASH` in `scripts/register-simulation.js`, then:
+3. **Update and run the registration script** — Update `EXPECTED_HASH` in `deployment/scripts/register-simulation.js`, then:
    ```bash
-   node scripts/register-simulation.js
+   node deployment/scripts/register-simulation.js
    ```
    Wait for the transaction to confirm.
 
@@ -58,7 +58,7 @@ When any files in `simulation/` are modified, you MUST also:
 ### Contract Details
 
 - **Contract**: `0xe0bB4bC3116e19F2c0c183eFf8802C4F707B0054` (Polygon Mainnet)
-- **On-chain log**: `scripts/on-chain-log.txt`
+- **On-chain log**: `deployment/scripts/on-chain-log.txt`
 
 ### Why
 

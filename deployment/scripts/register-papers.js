@@ -22,44 +22,44 @@ const ABI = [
 const PAPERS = [
     // ── Core Stack ──
     {
-        file: "paper1/Paper1_Emergent_Inertia_LBM.pdf",
+        file: "physics-core/papers/paper1/Paper1_Emergent_Inertia_LBM.pdf",
         version: "10.0-Paper1-PDF",
         label: "Paper 1 — Added-Mass Drag on Topological Defects (LBM)",
         expectedHash: "ee7a3f1bd942ea6195103551f93bdcd60806ee173dd6a0a148ad6eef58059af4"
     },
     {
-        file: "paper2/Paper2_Effective_GR_Viscoelastic.pdf",
+        file: "physics-core/papers/paper2/Paper2_Effective_GR_Viscoelastic.pdf",
         version: "10.0-Paper2-PDF",
         label: "Paper 2 — Effective IR Correspondence (Linearized Gravity)",
         expectedHash: "a9ac4e4eec6d15123de68509af669868b997fce8f2dffa66222ac5b1ace85db3"
     },
     {
-        file: "paper3/Paper3_Hawking_Analogue.pdf",
+        file: "physics-core/papers/paper3/Paper3_Hawking_Analogue.pdf",
         version: "10.0-Paper3-PDF",
         label: "Paper 3 — Acoustic Hawking Radiation (Superfluid Analogue)",
         expectedHash: "3f49fbf0ef49f3faef4c44b13ddfd8dee0d9557d84fd7b8b65daaf5994c1a126"
     },
     // ── Exploratory Frontiers ──
     {
-        file: "Part_II_Exploratory_Extensions/paper4/Paper4_Superfluid_Cosmology.pdf",
+        file: "physics-core/papers/paper4/Paper4_Superfluid_Cosmology.pdf",
         version: "10.1-Paper4-PDF",
         label: "Paper 4 — Heuristic Superfluid Cosmology",
         expectedHash: "6736b5b3d00e7f4f0035b4088235b034e87e3e5a4edc322965b56ff127a6b8b1"
     },
     {
-        file: "Part_II_Exploratory_Extensions/paper5/Paper5_Topological_Standard_Model.pdf",
+        file: "physics-core/papers/paper5/Paper5_Topological_Standard_Model.pdf",
         version: "10.1-Paper5-PDF",
         label: "Paper 5 — Torus Knot / Fermion Correspondences",
         expectedHash: "638fd38aec72d4edd4c9f763eead924bcd3beddf7802cae9f4d5d546d12ad033"
     },
     {
-        file: "Part_II_Exploratory_Extensions/paper6/Paper6_Topological_Chromodynamics.pdf",
+        file: "physics-core/papers/paper6/Paper6_Topological_Chromodynamics.pdf",
         version: "10.1-Paper6-PDF",
         label: "Paper 6 — Borromean Vortex Confinement Analogue",
         expectedHash: "8bf7141542e8571115d4db408ea17d7bcfff498a31ac852676f76049ced707d9"
     },
     {
-        file: "Part_II_Exploratory_Extensions/paper7/Paper7_Quantum_Entanglement.pdf",
+        file: "physics-core/papers/paper7/Paper7_Quantum_Entanglement.pdf",
         version: "10.1-Paper7-PDF",
         label: "Paper 7 — Bell-Inequality Violation (Phase Synchronisation)",
         expectedHash: "b2dc777384543de3737a96b6026cdeafa649cf0f4ec3d85afc5e1ef8f2cfced1"
