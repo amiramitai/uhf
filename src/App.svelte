@@ -1198,7 +1198,7 @@
         </p>
 
         <div class="grid sm:grid-cols-2 gap-4 mb-20">
-            <a href="https://github.com/amiramitai/uhf/blob/main/UHF_Part_I_Core.pdf" target="_blank" rel="noopener"
+            <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/UHF_Part_I_Core.pdf" target="_blank" rel="noopener"
                class="glass rounded-2xl p-6 border border-neonblue/10 hover:border-neonblue/30 transition-colors group">
                 <div class="flex items-center gap-3">
                     <div class="w-10 h-10 rounded-xl bg-neonblue/20 border border-neonblue/30 flex items-center justify-center shrink-0">
@@ -1210,7 +1210,7 @@
                     </div>
                 </div>
             </a>
-            <a href="https://github.com/amiramitai/uhf/blob/main/UHF_Part_II_Mathematical_Foundations.pdf" target="_blank" rel="noopener"
+            <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/UHF_Part_II_Mathematical_Foundations.pdf" target="_blank" rel="noopener"
                class="glass rounded-2xl p-6 border border-plasma/10 hover:border-plasma/30 transition-colors group">
                 <div class="flex items-center gap-3">
                     <div class="w-10 h-10 rounded-xl bg-plasma/20 border border-plasma/30 flex items-center justify-center shrink-0">
@@ -1222,7 +1222,7 @@
                     </div>
                 </div>
             </a>
-            <a href="https://github.com/amiramitai/uhf/blob/main/UHF_Part_III_Standard_Model.pdf" target="_blank" rel="noopener"
+            <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/UHF_Part_III_Standard_Model.pdf" target="_blank" rel="noopener"
                class="glass rounded-2xl p-6 border border-neon/10 hover:border-neon/30 transition-colors group">
                 <div class="flex items-center gap-3">
                     <div class="w-10 h-10 rounded-xl bg-neon/20 border border-neon/30 flex items-center justify-center shrink-0">
@@ -1234,7 +1234,7 @@
                     </div>
                 </div>
             </a>
-            <a href="https://github.com/amiramitai/uhf/blob/main/UHF_Defense_Addendum.pdf" target="_blank" rel="noopener"
+            <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/UHF_Defense_Addendum.pdf" target="_blank" rel="noopener"
                class="glass rounded-2xl p-6 border border-ember/10 hover:border-ember/30 transition-colors group">
                 <div class="flex items-center gap-3">
                     <div class="w-10 h-10 rounded-xl bg-ember/20 border border-ember/30 flex items-center justify-center shrink-0">
@@ -1295,7 +1295,7 @@
                             <span class="px-2 py-0.5 rounded bg-ember/10 text-ember text-[9px] font-mono">$R^2 > 0.99999999$</span>
                         </div>
                     </div>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/physics-core/papers/paper1/Paper1_Emergent_Inertia_LBM.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/papers/paper1/Paper1_Emergent_Inertia_LBM.pdf" target="_blank" rel="noopener"
                        class="shrink-0 px-4 py-2 rounded-lg bg-ember/10 border border-ember/20 text-ember text-xs font-medium hover:bg-ember/20 transition-all">PDF ↗</a>
                 </div>
             </div>
@@ -1312,7 +1312,7 @@
                             <span class="px-2 py-0.5 rounded bg-plasma/10 text-plasma text-[9px] font-mono">NANOGrav ΔAIC = 37.69</span>
                         </div>
                     </div>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/physics-core/papers/paper2/Paper2_Effective_GR_Viscoelastic.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/papers/paper2/Paper2_Effective_GR_Viscoelastic.pdf" target="_blank" rel="noopener"
                        class="shrink-0 px-4 py-2 rounded-lg bg-plasma/10 border border-plasma/20 text-plasma text-xs font-medium hover:bg-plasma/20 transition-all">PDF ↗</a>
                 </div>
             </div>
@@ -1329,7 +1329,7 @@
                             <span class="px-2 py-0.5 rounded bg-neonblue/10 text-neonblue text-[9px] font-mono">SNR = 4.71</span>
                         </div>
                     </div>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/physics-core/papers/paper3/Paper3_Hawking_Analogue.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/papers/paper3/Paper3_Hawking_Analogue.pdf" target="_blank" rel="noopener"
                        class="shrink-0 px-4 py-2 rounded-lg bg-neonblue/10 border border-neonblue/20 text-neonblue text-xs font-medium hover:bg-neonblue/20 transition-all">PDF ↗</a>
                 </div>
             </div>
@@ -1355,7 +1355,7 @@
                             <span class="px-2 py-0.5 rounded bg-ember/10 text-ember text-[9px] font-mono">$\delta_c = 1.15$</span>
                         </div>
                     </div>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/physics-core/papers/paper4/Paper4_Superfluid_Cosmology.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/papers/paper4/Paper4_Superfluid_Cosmology.pdf" target="_blank" rel="noopener"
                        class="shrink-0 px-4 py-2 rounded-lg bg-neon/10 border border-neon/20 text-neon text-xs font-medium hover:bg-neon/20 transition-all">PDF ↗</a>
                 </div>
             </div>
@@ -1372,7 +1372,7 @@
                             <span class="px-2 py-0.5 rounded bg-glow/10 text-glow text-[9px] font-mono">$\omega^* = 0.1178$</span>
                         </div>
                     </div>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/physics-core/papers/paper5/Paper5_Topological_Standard_Model.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/papers/paper5/Paper5_Topological_Standard_Model.pdf" target="_blank" rel="noopener"
                        class="shrink-0 px-4 py-2 rounded-lg bg-glow/10 border border-glow/20 text-glow text-xs font-medium hover:bg-glow/20 transition-all">PDF ↗</a>
                 </div>
             </div>
@@ -1389,7 +1389,7 @@
                             <span class="px-2 py-0.5 rounded bg-plasma/10 text-plasma text-[9px] font-mono">$b_0 = 11$ exact</span>
                         </div>
                     </div>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/physics-core/papers/paper6/Paper6_Topological_Chromodynamics.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/papers/paper6/Paper6_Topological_Chromodynamics.pdf" target="_blank" rel="noopener"
                        class="shrink-0 px-4 py-2 rounded-lg bg-plasma/10 border border-plasma/20 text-plasma text-xs font-medium hover:bg-plasma/20 transition-all">PDF ↗</a>
                 </div>
             </div>
@@ -1415,7 +1415,7 @@
                             <span class="px-2 py-0.5 rounded bg-ember/10 text-ember text-[9px] font-mono">$S > 2$ (classical bound violated)</span>
                         </div>
                     </div>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/physics-core/papers/paper7/Paper7_Quantum_Entanglement.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/papers/paper7/Paper7_Quantum_Entanglement.pdf" target="_blank" rel="noopener"
                        class="shrink-0 px-4 py-2 rounded-lg bg-ember/10 border border-ember/20 text-ember text-xs font-medium hover:bg-ember/20 transition-all">PDF ↗</a>
                 </div>
             </div>
@@ -1493,12 +1493,12 @@
                     <code class="hash-display text-neon/80 text-[0.65rem]">6a0894ffe8165a2fde23d3fc2bf373bf9e27f208a122532ed7e6296d4dc68986</code>
                 </div>
                 <div class="flex gap-3">
-                    <a href="https://github.com/amiramitai/uhf/blob/main/UHF_Part_I_Core.md" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/UHF_Part_I_Core.md" target="_blank" rel="noopener"
                        class="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-neon/10 border border-neon/20 text-neon text-sm font-medium hover:bg-neon/20 transition-all">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
                         Markdown
                     </a>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/UHF_Part_I_Core.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/UHF_Part_I_Core.pdf" target="_blank" rel="noopener"
                        class="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-ember/10 border border-ember/20 text-ember text-sm font-medium hover:bg-ember/20 transition-all">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
                         PDF
@@ -1522,12 +1522,12 @@
                     <code class="hash-display text-plasma/80 text-[0.65rem]">9e240ab13b7d4879fadb4a7c262847ead4421ea64cbe0cbf7003d21591853219</code>
                 </div>
                 <div class="flex gap-3">
-                    <a href="https://github.com/amiramitai/uhf/blob/main/UHF_Part_II_Mathematical_Foundations.md" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/UHF_Part_II_Mathematical_Foundations.md" target="_blank" rel="noopener"
                        class="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-plasma/10 border border-plasma/20 text-plasma text-sm font-medium hover:bg-plasma/20 transition-all">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
                         Markdown
                     </a>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/UHF_Part_II_Mathematical_Foundations.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/UHF_Part_II_Mathematical_Foundations.pdf" target="_blank" rel="noopener"
                        class="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-ember/10 border border-ember/20 text-ember text-sm font-medium hover:bg-ember/20 transition-all">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
                         PDF
@@ -1551,12 +1551,12 @@
                     <code class="hash-display text-neonblue/80 text-[0.65rem]">9866c05e4d59dee4ec2dbbf0b31eff15756106f7b3bb237096c7fcbb0fd5f28a</code>
                 </div>
                 <div class="flex gap-3">
-                    <a href="https://github.com/amiramitai/uhf/blob/main/UHF_Part_III_Standard_Model.md" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/UHF_Part_III_Standard_Model.md" target="_blank" rel="noopener"
                        class="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-neonblue/10 border border-neonblue/20 text-neonblue text-sm font-medium hover:bg-neonblue/20 transition-all">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
                         Markdown
                     </a>
-                    <a href="https://github.com/amiramitai/uhf/blob/main/UHF_Part_III_Standard_Model.pdf" target="_blank" rel="noopener"
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/UHF_Part_III_Standard_Model.pdf" target="_blank" rel="noopener"
                        class="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-ember/10 border border-ember/20 text-ember text-sm font-medium hover:bg-ember/20 transition-all">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
                         PDF
@@ -1583,12 +1583,12 @@
                 <code class="hash-display text-neon/80 text-[0.65rem]">6ddbebcec9bc7d0ce92758ac2ea884d284e2227a66eb13c59d0b5ad15243b0f4</code>
             </div>
             <div class="flex gap-3 flex-wrap">
-                <a href="https://github.com/amiramitai/uhf/blob/main/UHF_Defense_Addendum.md" target="_blank" rel="noopener"
+                <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/UHF_Defense_Addendum.md" target="_blank" rel="noopener"
                    class="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-neon/10 border border-neon/20 text-neon text-sm font-medium hover:bg-neon/20 transition-all">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
                     Markdown
                 </a>
-                <a href="https://github.com/amiramitai/uhf/blob/main/UHF_Defense_Addendum.pdf" target="_blank" rel="noopener"
+                <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/UHF_Defense_Addendum.pdf" target="_blank" rel="noopener"
                    class="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-ember/10 border border-ember/20 text-ember text-sm font-medium hover:bg-ember/20 transition-all">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
                     PDF

@@ -26,7 +26,7 @@ const EXPECTED_HASH = "9efd662522207c6a83dfbac34f67bf1f25df62e73a95157b4f15f81b3
 async function main() {
     // Build the zip first
     console.log("Building simulation zip...\n");
-    execSync("bash scripts/build-simulation-zip.sh", { stdio: "inherit" });
+    execSync("bash deployment/scripts/build-simulation-zip.sh", { stdio: "inherit" });
 
     // Verify hash
     console.log("\nVerifying SHA-256 hash...\n");

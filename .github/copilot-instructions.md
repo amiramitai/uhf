@@ -6,9 +6,9 @@
 
 When any of the following files are modified:
 
-- `UHF_Part_I_Core.md`
-- `UHF_Part_II_Mathematical_Foundations.md`
-- `UHF_Part_III_Standard_Model.md`
+- `uhf_physics/UHF_Part_I_Core.md`
+- `uhf_physics/UHF_Part_II_Mathematical_Foundations.md`
+- `uhf_physics/UHF_Part_III_Standard_Model.md`
 
 You MUST follow this exact sequence:
 
@@ -19,7 +19,7 @@ You MUST follow this exact sequence:
 
 2. **Compute SHA-256 hashes** — Verify integrity:
    ```bash
-   shasum -a 256 UHF_Part_I_Core.md UHF_Part_II_Mathematical_Foundations.md UHF_Part_III_Standard_Model.md
+   shasum -a 256 uhf_physics/UHF_Part_I_Core.md uhf_physics/UHF_Part_II_Mathematical_Foundations.md uhf_physics/UHF_Part_III_Standard_Model.md
    ```
 
 3. **Update the registration script** — Update the `expectedHash` values in the appropriate `deployment/scripts/register-v*.js` file to match the current hashes.
@@ -34,7 +34,7 @@ You MUST follow this exact sequence:
 
 ## Simulation Suite Policy
 
-When any files in `physics-core/simulations/` or `infrastructure/lbm-gpe/` are modified, you MUST also:
+When any files in `uhf_physics/simulations/` or `uhf_infrastructure/lbm-gpe/` are modified, you MUST also:
 
 1. **Rebuild the zip** — Run the build script:
    ```bash

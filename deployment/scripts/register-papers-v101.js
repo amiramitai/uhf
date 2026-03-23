@@ -18,25 +18,25 @@ const ABI = [
 
 const PAPERS = [
     {
-        file: "physics-core/papers/paper4/Paper4_Superfluid_Cosmology.pdf",
+        file: "uhf_physics/papers/paper4/Paper4_Superfluid_Cosmology.pdf",
         version: "10.1-Paper4-PDF",
         label: "Paper 4 — Heuristic Superfluid Cosmology",
         expectedHash: "6736b5b3d00e7f4f0035b4088235b034e87e3e5a4edc322965b56ff127a6b8b1"
     },
     {
-        file: "physics-core/papers/paper5/Paper5_Topological_Standard_Model.pdf",
+        file: "uhf_physics/papers/paper5/Paper5_Topological_Standard_Model.pdf",
         version: "10.1-Paper5-PDF",
         label: "Paper 5 — Torus Knot / Fermion Correspondences",
         expectedHash: "638fd38aec72d4edd4c9f763eead924bcd3beddf7802cae9f4d5d546d12ad033"
     },
     {
-        file: "physics-core/papers/paper6/Paper6_Topological_Chromodynamics.pdf",
+        file: "uhf_physics/papers/paper6/Paper6_Topological_Chromodynamics.pdf",
         version: "10.1-Paper6-PDF",
         label: "Paper 6 — Borromean Vortex Confinement Analogue",
         expectedHash: "8bf7141542e8571115d4db408ea17d7bcfff498a31ac852676f76049ced707d9"
     },
     {
-        file: "physics-core/papers/paper7/Paper7_Quantum_Entanglement.pdf",
+        file: "uhf_physics/papers/paper7/Paper7_Quantum_Entanglement.pdf",
         version: "10.1-Paper7-PDF",
         label: "Paper 7 — Bell-Inequality Violation (Phase Synchronisation)",
         expectedHash: "b2dc777384543de3737a96b6026cdeafa649cf0f4ec3d85afc5e1ef8f2cfced1"

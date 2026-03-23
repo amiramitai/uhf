@@ -16,19 +16,19 @@ const ABI = [
 
 const ITEMS = [
     {
-        file: "UHF_Part_I_Core.pdf",
+        file: "uhf_physics/UHF_Part_I_Core.pdf",
         version: "10.0-Part-I-PDF",
         label: "UHF Part I — Physical Core (PDF)",
         expectedHash: "76106eef97d49a9fb5eae621bfe3aa7fd5fd8482630e75a51dc2bc4f124a722b"
     },
     {
-        file: "UHF_Defense_Addendum.md",
+        file: "uhf_physics/UHF_Defense_Addendum.md",
         version: "10.0-Addendum",
         label: "UHF Defense Addendum (JWST §9.1 + Bullet Cluster §9.3 + Thruster §10)",
         expectedHash: "d06696fabcee02c6ba9fe58289454ac9e22394b99793a48703a71422f7aa591a"
     },
     {
-        file: "UHF_Defense_Addendum.pdf",
+        file: "uhf_physics/UHF_Defense_Addendum.pdf",
         version: "10.0-Addendum-PDF",
         label: "UHF Defense Addendum (PDF)",
         expectedHash: "6ddbebcec9bc7d0ce92758ac2ea884d284e2227a66eb13c59d0b5ad15243b0f4"
