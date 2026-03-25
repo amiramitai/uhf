@@ -181,106 +181,54 @@ Second, and more fundamentally for gravitational waves: Lighthill's aeroacoustic
 
 ## 3. Mathematical Framework: The Superfluid Vacuum Lagrangian
 
-### 3.1 The Gross-Pitaevskii / Nonlinear Schrödinger Foundation
+### 3.1 The Unified Action Functional
 
-We model the cosmological vacuum as a Bose-Einstein Condensate (BEC) described by a macroscopic order parameter $\Psi(\mathbf{x}, t)$. The dynamics of this condensate are governed by the Gross-Pitaevskii (GP) equation, also known as the Nonlinear Schrödinger Equation (NLSE):
+We model the cosmological vacuum as a Bose-Einstein Condensate (BEC) described by two dynamical fields: a macroscopic complex order parameter $\Psi(\mathbf{x}, t)$ and a real displacement field $\mathbf{u}(\mathbf{x}, t)$. The complete dynamics are derived from a single variational principle. The **action functional** of the viscoelastic superfluid vacuum is:
+
+$$S[\Psi, \mathbf{u}] = \int d^4x \left[ i\hbar\,\Psi^*\dot{\Psi} - \frac{\hbar^2}{2m}|\nabla\Psi|^2 - \frac{g}{2}|\Psi|^4 + \frac{1}{2}\rho\,\dot{\mathbf{u}}^2 - \frac{1}{2}\lambda(\nabla \cdot \mathbf{u})^2 - \mu\, e_{ij}e_{ij} - \frac{\eta}{2}\dot{e}_{ij}\dot{e}_{ij} \right]$$
+
+The first three terms constitute the standard Gross-Pitaevskii action for a scalar condensate (encoding quantum mechanics and longitudinal acoustics). The remaining four terms encode the viscoelastic response: kinetic energy of displacement, bulk compression (Lamé parameter $\lambda$), shear elasticity ($\mu$), and viscous dissipation ($\eta$). Together, these seven terms comprise the **constitutive Lagrangian** from which all four pillars of the framework are derived.
+
+The corresponding Lagrangian density for the elastic sector is:
+
+$$\mathcal{L}_{\text{elastic}} = \frac{1}{2}\rho \dot{\mathbf{u}}^2 - \frac{1}{2}\lambda(\nabla \cdot \mathbf{u})^2 - \mu\, e_{ij}e_{ij} - U(\rho)$$
+
+where $\mathbf{u}$ is the displacement field (such that velocity $\mathbf{v} = \dot{\mathbf{u}}$), $\lambda$ is the first Lamé parameter (related to the bulk modulus and compressibility), $\mu$ is the shear modulus, $e_{ij} = \frac{1}{2}(\partial_i u_j + \partial_j u_i)$ is the strain tensor, and $U(\rho)$ is the internal potential energy density derived from the GP interaction term.
+
+The action contains exactly four physical parameters beyond the fundamental constants: the boson mass $m$, the self-coupling $g$, the shear modulus $\mu$, and the Maxwell relaxation time $\tau_M = \eta/\mu$. Setting $m \approx 2.1\;\text{meV}/c^2$ (as determined in Section 8.3 from the cosmological constant) fixes the phenomenology of the cosmological constant, MOND, and CMB simultaneously, while $\mu$ and $\tau_M$ determine the electromagnetic and gravitational-wave sectors.
+
+### 3.2 Euler-Lagrange Equations: The GP Equation and Navier-Stokes
+
+**Variation with respect to $\Psi^*$.** Applying the Euler-Lagrange equation $\frac{\delta S}{\delta \Psi^*} = 0$ to the GP sector of the action yields the Gross-Pitaevskii equation (also known as the Nonlinear Schrödinger Equation):
 
 $$i\hbar \frac{\partial \Psi}{\partial t} = \left(-\frac{\hbar^2}{2m}\nabla^2 + V_{\text{ext}} + g|\Psi|^2\right)\Psi$$
 
 Here, $m$ is the mass of the constituent sub-Planckian bosons, $V_{\text{ext}}$ is any external potential, and $g$ is the interaction coupling constant. The term $g|\Psi|^2$ represents the nonlinear self-interaction of the fluid.
 
-The fluid density is given by $\rho = |\Psi|^2$. In the Thomas-Fermi approximation (where kinetic energy is negligible compared to interaction energy), the equation of state is $P = \frac{g}{2m}\rho^2$, which describes a barotropic fluid. The speed of sound (longitudinal phonon velocity) in the unperturbed condensate is $c_s = \sqrt{\frac{g\rho_0}{m}}$, where $\rho_0$ is the background density.
-
-A critical length scale in this system is the healing length, $\xi = \frac{\hbar}{m c_s}$, which dictates the distance over which the condensate density recovers from a localized perturbation. In our framework, we identify the healing length $\xi$ with the Planck length, $l_P$, establishing a natural ultraviolet (UV) cutoff for the continuum fluid approximation.
-
-### 3.2 Extension to a Viscoelastic Constitutive Relation
-
-To support transverse wave propagation (Pillars III and IV), the pure GP fluid must be extended to a viscoelastic regime. We define the generalized Cauchy stress tensor $\sigma_{ij}$ for a Maxwell-type viscoelastic superfluid:
-
-$$\sigma_{ij} = -P\delta_{ij} + 2\mu\, e_{ij} + \eta\, \dot{e}_{ij}$$
-
-where $P$ is the thermodynamic pressure derived from the GP equation of state, $e_{ij} = \frac{1}{2}(\partial_i u_j + \partial_j u_i)$ is the infinitesimal strain tensor (with $\mathbf{u}$ being the displacement field), $\mu$ is the dynamic shear modulus, and $\eta$ is the shear viscosity.
-
-The Maxwell relaxation time is defined as $\tau_M = \eta / \mu$. The dynamical behavior of the vacuum depends strictly on the frequency $\omega$ of the perturbation:
-
-- **Acoustic/Fluid Regime** ($\omega \tau_M \ll 1$): The medium flows, supporting only longitudinal pressure waves (phonons). This regime governs macroscopic gravity (Bjerknes forces) and standard quantum mechanics.
-- **Elastic/Transverse Regime** ($\omega \tau_M \gg 1$): The medium resists shear, supporting transverse elastic waves. This regime governs electromagnetism and the propagation of gravitational waves.
-
-#### 3.2.1 Frequency-Dependent Arrival Times and the Pip-and-Tail Echo Signature
-
-Because the group velocity $v_g$ increases with frequency in the elastic limit ($\omega\tau_M \gg 1$), high-frequency components travel faster and arrive first (a positive lead). The Bogoliubov dispersion relation for phonons in the condensate interior,
-
-$$\omega^2 = c_s^2 k^2 + \frac{\hbar^2 k^4}{4m^2}$$
-
-implies a frequency-dependent group velocity:
-
-$$v_g(f) = \frac{d\omega}{dk} = c_s\left(1 + \frac{\hbar^2 k^2}{2m^2 c_s^2}\right)^{1/2} \approx c_s\left(1 + \frac{2\pi^2 \hbar^2 f^2}{m^2 c_s^4}\right)$$
-
-Since $v_g(f)$ is a monotonically increasing function of $f$, high-frequency components of a broadband echo pulse travel *faster* through the gravastar interior than the low-frequency envelope and therefore arrive *first*. For an echo traversal path of length $L \sim R_S \ln(R_S/\xi)$, the chromatic lead of a high-frequency component $f_h$ relative to the carrier frequency $f_0$ is:
-
-$$\Delta t_{\text{lead}}(f_h) = \frac{L}{v_g(f_0)} - \frac{L}{v_g(f_h)} = +\frac{2\pi^2 \hbar^2 L}{m^2 c_s^3}\,(f_h^2 - f_0^2) > 0$$
-
-The positive sign confirms that the transit time of $f_h$ is shorter than that of $f_0$: high-frequency components arrive *before* the low-frequency carrier by an amount $\Delta t_{\text{lead}}$. Evaluating for the UHF condensate parameters ($m \approx 2.1\;\text{meV}/c^2$, $c_s = c$, $L \sim 10\;\text{km}$ for a $30\,M_\odot$ merger) yields the Analytic Bogoliubov Lead:
-
-$$\Delta t_{\text{Bog}} = +16.67\;\text{s} \quad\text{(LISA-band)}$$
-
-For LIGO-band echoes ($L \sim 10\;\text{km}$), the lead is $+16.67\;\mu\text{s}$.
-
-This positive-lead dispersion produces a distinctive **"pip-and-tail" echo signature** in the time-frequency plane: the echo first appears as a sharp, high-frequency *pip* — the fastest spectral components arriving ahead of the carrier — followed by a dispersive *tail* of progressively lower-frequency content sweeping down to the carrier frequency $f_0$ over the lead interval $\Delta t_{\text{Bog}}$. For LIGO-band mergers ($f_0 \sim 200\;\text{Hz}$), the pip appears at $f_h \sim 1\;\text{kHz}$ and the tail sweeps downward; for LISA-band massive binaries ($f_0 \sim 3\;\text{mHz}$), the pip appears at $f_h \sim 30\;\text{mHz}$. The tail's spectral energy distribution follows the Bogoliubov dispersion:
-
-$$\frac{dE}{df}\bigg|_{\text{tail}} \propto f^3 \left(1 + \frac{2\pi^2 \hbar^2 f^2}{m^2 c_s^4}\right)^{-1/2}$$
-
-For matched-filter searches, this translates to the phase correction:
-
-$$\delta\Phi(f) = +2\pi f \cdot \Delta t_{\text{Bog}}$$
-
-applied to the post-merger ringdown template. The pip-and-tail morphology is qualitatively distinct from: (i) standard ringdown quasi-normal modes (which are exponentially damped sinusoids with *no* frequency-dependent lead), (ii) electromagnetic dispersion in plasma (which produces the *inverse* ordering: low frequencies arrive last), and (iii) putative quantum-gravity dispersion corrections (which scale as $\Delta t \propto E/E_P$ and are $\sim 10^{-20}$ times smaller). The pip-and-tail signature is therefore a *unique, falsifiable fingerprint* of the superfluid interior: its detection in coincidence with the timing ratio $\mathcal{R} = 1.12$ would constitute a three-observable confirmation (timing ratio + Bogoliubov lead + spectral morphology) of the UHF gravastar, with no free parameters.
-
-**GPU verification status.** RTX 3090 simulations on a 256³ condensate lattice confirm the pip-and-tail morphology and reproduce $\Delta t_{\text{Bog}} = +16.67 \pm 0.03\;\mu\text{s}$ (LIGO-band calibration). Convergence is established by the 256³ $\to$ 512³ extrapolation, which shifts $\Delta t_{\text{Bog}}$ by less than $0.2\%$.
-
-#### 3.2.2 The High-Resolution Dispersion Audit
-
-The $+16.67\;\text{s}$ LISA-band Bogoliubov lead ($+16.67\;\mu\text{s}$ at LIGO scales) constitutes the unique UHF signature for space-based gravitational-wave observatories. Establishing this prediction at hardware-verified precision requires a convergence study across lattice resolutions.
-
-**The 256³ resolution audit.** A systematic convergence study was conducted on RTX 3090 hardware across three lattice resolutions: 128³, 192³, and 256³, each evolved for $10^6$ Bogoliubov time-steps at double precision. The audited observable is the chromatic lead $\Delta t_{\text{lead}}(f_h)$ of a high-frequency probe pulse at $f_h = 1\;\text{kHz}$ relative to the carrier at $f_0 = 200\;\text{Hz}$, propagated through a gravastar interior of path length $L = R_S \ln(R_S / \xi) \approx 10\;\text{km}$ for a $30\,M_\odot$ remnant.
-
-| Resolution | $\Delta t_{\text{Bog}}$ ($\mu$s) | Sign | Convergence status |
-|---|---|---|---|
-| 128³ | $+15.21$ | positive | Box-mode aliasing at $k_{\max} = \pi / \Delta x$ |
-| 192³ | $+16.38$ | positive | Residual aliasing at $0.4\%$ |
-| 256³ | $+16.67 \pm 0.03$ | positive | Below noise floor |
-
-The systematic improvement from 128³ to 256³ reflects the suppression of box-mode aliasing: at coarse resolution, the highest-frequency mode $k_{\max}$ couples to the box mode $k_{\text{box}} = 2\pi / L_{\text{box}}$, creating a standing-wave resonance that partially cancels the Bogoliubov tail and reduces the measured lead. At 192³ and above, the box mode is detuned from $k_{\max}$ by more than one e-folding of the Silk-damping envelope, and the artifact vanishes.
-
-**Convergence confirmation.** The 256³ $\to$ 512³ Richardson extrapolation shifts $\Delta t_{\text{Bog}}$ by $< 0.2\%$, establishing full convergence at $>5\sigma$ confidence. The physical dispersion is *positive*: high-frequency components arrive *before* the low-frequency carrier, consistent with the monotonically increasing group velocity $v_g(f)$ of the Bogoliubov dispersion relation.
-
-**LISA observability.** For LISA-band massive binary inspirals ($f_0 \sim 3\;\text{mHz}$, $M \sim 10^6\,M_\odot$, $L \sim 10^7\;\text{km}$), the Bogoliubov lead scales as:
-
-$$\Delta t_{\text{LISA}} = \frac{2\pi^2 \hbar^2 L}{m^2 c_s^3}\,(f_h^2 - f_0^2) = +16.67\;\text{s}$$
-
-for a high-frequency component at $f_h = 30\;\text{mHz}$. This is well within LISA's temporal resolution ($\sim 0.1\;\text{s}$ at SNR $> 10$), making the pip-and-tail echo a primary science target for LISA's post-merger ringdown analysis. The $+16.67\;\text{s}$ LISA lead and the $+16.67\;\mu\text{s}$ LIGO calibration point are fixed by the condensate equation of state with zero free parameters.
-
-### 3.3 The Unified Action Functional and Euler-Lagrange Equations
-
-The complete dynamics of the vacuum are derived from a unified variational principle. We define the **action functional** of the viscoelastic superfluid vacuum as:
-
-$$S[\Psi, \mathbf{u}] = \int d^4x \left[ i\hbar\,\Psi^*\dot{\Psi} - \frac{\hbar^2}{2m}|\nabla\Psi|^2 - \frac{g}{2}|\Psi|^4 + \frac{1}{2}\rho\,\dot{\mathbf{u}}^2 - \frac{1}{2}\lambda(\nabla \cdot \mathbf{u})^2 - \mu\, e_{ij}e_{ij} - \frac{\eta}{2}\dot{e}_{ij}\dot{e}_{ij} \right]$$
-
-The first three terms constitute the standard Gross-Pitaevskii action for the scalar condensate (encoding quantum mechanics and longitudinal acoustics). The remaining four terms encode the viscoelastic response: kinetic energy of displacement, bulk compression (Lamé parameter $\lambda$), shear elasticity ($\mu$), and viscous dissipation ($\eta$). Together, these six terms comprise the **constitutive Lagrangian** from which all four pillars are derived.
-
-The corresponding Lagrangian density is:
-
-$$\mathcal{L} = \frac{1}{2}\rho \dot{\mathbf{u}}^2 - \frac{1}{2}\lambda(\nabla \cdot \mathbf{u})^2 - \mu\, e_{ij}e_{ij} - U(\rho)$$
-
-where $\mathbf{u}$ is the displacement field (such that velocity $\mathbf{v} = \dot{\mathbf{u}}$), $\lambda$ is the first Lamé parameter (related to the bulk modulus and compressibility), $\mu$ is the shear modulus, $e_{ij} = \frac{1}{2}(\partial_i u_j + \partial_j u_i)$ is the strain tensor, and $U(\rho)$ is the internal potential energy density derived from the GP interaction term.
-
-Applying the Euler-Lagrange equations $\frac{\partial \mathcal{L}}{\partial u_i} - \partial_\mu \frac{\partial \mathcal{L}}{\partial(\partial_\mu u_i)} = 0$ to this action yields the generalized Navier-Stokes/Cauchy momentum equation for the vacuum:
+**Variation with respect to $\mathbf{u}$.** Applying $\frac{\partial \mathcal{L}}{\partial u_i} - \partial_\mu \frac{\partial \mathcal{L}}{\partial(\partial_\mu u_i)} = 0$ to the elastic sector yields the generalized Navier-Stokes/Cauchy momentum equation for the vacuum:
 
 $$\rho \frac{\partial \mathbf{v}}{\partial t} + \rho (\mathbf{v} \cdot \nabla)\mathbf{v} = -\nabla P + (\lambda + \mu)\nabla(\nabla \cdot \mathbf{u}) + \mu \nabla^2 \mathbf{u}$$
 
 Taking the divergence and curl of this equation isolates the longitudinal and transverse modes, respectively. The longitudinal wave speed is $c_L = \sqrt{\frac{\lambda + 2\mu}{\rho_0}}$ (which we identify with the speed of light/sound $c_s$), and the transverse wave speed is $c_T = \sqrt{\frac{\mu}{\rho_0}}$.
 
-**Key structural result:** The single action $S[\Psi, \mathbf{u}]$ contains exactly four physical parameters beyond the fundamental constants: the boson mass $m$, the self-coupling $g$, the shear modulus $\mu$, and the Maxwell relaxation time $\tau_M = \eta/\mu$. Setting $m \approx 2.1\;\text{meV}/c^2$ (as determined in Section 8.3 from the cosmological constant) fixes the phenomenology of the cosmological constant, MOND, and CMB simultaneously, while $\mu$ and $\tau_M$ determine the electromagnetic and gravitational-wave sectors.
+Both equations of motion — the GP equation governing the condensate and the Cauchy momentum equation governing elastic deformations — follow from a single variational principle applied to the same action $S[\Psi, \mathbf{u}]$.
+
+### 3.3 Physical Scales and the Viscoelastic Regime
+
+The GP equation of state defines the fluid density $\rho = |\Psi|^2$. In the Thomas-Fermi approximation (where kinetic energy is negligible compared to interaction energy), the equation of state is $P = \frac{g}{2m}\rho^2$, which describes a barotropic fluid. The speed of sound (longitudinal phonon velocity) in the unperturbed condensate is $c_s = \sqrt{\frac{g\rho_0}{m}}$, where $\rho_0$ is the background density.
+
+A critical length scale in this system is the healing length, $\xi = \frac{\hbar}{m c_s}$, which dictates the distance over which the condensate density recovers from a localized perturbation. In our framework, we identify the healing length $\xi$ with the Planck length, $l_P$, establishing a natural ultraviolet (UV) cutoff for the continuum fluid approximation.
+
+To support transverse wave propagation (Pillars III and IV), the pure GP fluid must exhibit viscoelastic behavior. The generalized Cauchy stress tensor $\sigma_{ij}$ for a Maxwell-type viscoelastic superfluid is:
+
+$$\sigma_{ij} = -P\delta_{ij} + 2\mu\, e_{ij} + \eta\, \dot{e}_{ij}$$
+
+where $P$ is the thermodynamic pressure derived from the GP equation of state, $e_{ij} = \frac{1}{2}(\partial_i u_j + \partial_j u_i)$ is the infinitesimal strain tensor, $\mu$ is the dynamic shear modulus, and $\eta$ is the shear viscosity.
+
+The Maxwell relaxation time $\tau_M = \eta / \mu$ divides the dynamical behavior of the vacuum into two regimes:
+
+- **Acoustic/Fluid Regime** ($\omega \tau_M \ll 1$): The medium flows, supporting only longitudinal pressure waves (phonons). This regime governs macroscopic gravity (Bjerknes forces) and standard quantum mechanics.
+- **Elastic/Transverse Regime** ($\omega \tau_M \gg 1$): The medium resists shear, supporting transverse elastic waves. This regime governs electromagnetism and the propagation of gravitational waves.
 
 ### 3.4 Helmholtz Decomposition and Resolution of Field Redundancy
 
@@ -313,6 +261,60 @@ $$S_{\text{GP}} = \int d^4x \left[ i\hbar\,\Psi^*\dot{\Psi} - \frac{\hbar^2}{2m}
 $$S_{\text{shear}} = \int d^4x \left[ \frac{1}{2}\rho_0\,\dot{\mathbf{u}}_T^2 - \mu\, e_{ij}^T e_{ij}^T - \frac{\eta}{2}\dot{e}_{ij}^T\dot{e}_{ij}^T \right]$$
 
 The cross-coupling between the two sectors arises only through the background density $\rho_0 = |\Psi_0|^2$, which enters as a parameter (not a dynamical variable) in $S_{\text{shear}}$. This coupling is what connects the gravitational sector (longitudinal Bjerknes forces from $\Psi$) to the electromagnetic sector (transverse vorticity from $\mathbf{u}_T$), without introducing any double-counting of degrees of freedom.
+
+### 3.5 Phenomenological Consequence: The Pip-and-Tail Echo Signature
+
+The Bogoliubov dispersion relation derived from the GP sector,
+
+$$\omega^2 = c_s^2 k^2 + \frac{\hbar^2 k^4}{4m^2}$$
+
+implies a frequency-dependent group velocity. Because $v_g$ increases with frequency in the elastic limit ($\omega\tau_M \gg 1$), high-frequency components travel faster and arrive first (a positive lead):
+
+$$v_g(f) = \frac{d\omega}{dk} = c_s\left(1 + \frac{\hbar^2 k^2}{2m^2 c_s^2}\right)^{1/2} \approx c_s\left(1 + \frac{2\pi^2 \hbar^2 f^2}{m^2 c_s^4}\right)$$
+
+Since $v_g(f)$ is a monotonically increasing function of $f$, high-frequency components of a broadband echo pulse travel *faster* through the gravastar interior than the low-frequency envelope and therefore arrive *first*. For an echo traversal path of length $L \sim R_S \ln(R_S/\xi)$, the chromatic lead of a high-frequency component $f_h$ relative to the carrier frequency $f_0$ is:
+
+$$\Delta t_{\text{lead}}(f_h) = \frac{L}{v_g(f_0)} - \frac{L}{v_g(f_h)} = +\frac{2\pi^2 \hbar^2 L}{m^2 c_s^3}\,(f_h^2 - f_0^2) > 0$$
+
+The positive sign confirms that the transit time of $f_h$ is shorter than that of $f_0$: high-frequency components arrive *before* the low-frequency carrier by an amount $\Delta t_{\text{lead}}$. Evaluating for the UHF condensate parameters ($m \approx 2.1\;\text{meV}/c^2$, $c_s = c$, $L \sim 10\;\text{km}$ for a $30\,M_\odot$ merger) yields the Analytic Bogoliubov Lead:
+
+$$\Delta t_{\text{Bog}} = +16.67\;\text{s} \quad\text{(LISA-band)}$$
+
+For LIGO-band echoes ($L \sim 10\;\text{km}$), the lead is $+16.67\;\mu\text{s}$.
+
+This positive-lead dispersion produces a distinctive **"pip-and-tail" echo signature** in the time-frequency plane: the echo first appears as a sharp, high-frequency *pip* — the fastest spectral components arriving ahead of the carrier — followed by a dispersive *tail* of progressively lower-frequency content sweeping down to the carrier frequency $f_0$ over the lead interval $\Delta t_{\text{Bog}}$. For LIGO-band mergers ($f_0 \sim 200\;\text{Hz}$), the pip appears at $f_h \sim 1\;\text{kHz}$ and the tail sweeps downward; for LISA-band massive binaries ($f_0 \sim 3\;\text{mHz}$), the pip appears at $f_h \sim 30\;\text{mHz}$. The tail's spectral energy distribution follows the Bogoliubov dispersion:
+
+$$\frac{dE}{df}\bigg|_{\text{tail}} \propto f^3 \left(1 + \frac{2\pi^2 \hbar^2 f^2}{m^2 c_s^4}\right)^{-1/2}$$
+
+For matched-filter searches, this translates to the phase correction:
+
+$$\delta\Phi(f) = +2\pi f \cdot \Delta t_{\text{Bog}}$$
+
+applied to the post-merger ringdown template. The pip-and-tail morphology is qualitatively distinct from: (i) standard ringdown quasi-normal modes (which are exponentially damped sinusoids with *no* frequency-dependent lead), (ii) electromagnetic dispersion in plasma (which produces the *inverse* ordering: low frequencies arrive last), and (iii) putative quantum-gravity dispersion corrections (which scale as $\Delta t \propto E/E_P$ and are $\sim 10^{-20}$ times smaller). The pip-and-tail signature is therefore a *unique, falsifiable fingerprint* of the superfluid interior: its detection in coincidence with the timing ratio $\mathcal{R} = 1.12$ would constitute a three-observable confirmation (timing ratio + Bogoliubov lead + spectral morphology) of the UHF gravastar, with no free parameters.
+
+**GPU verification status.** RTX 3090 simulations on a 256³ condensate lattice confirm the pip-and-tail morphology and reproduce $\Delta t_{\text{Bog}} = +16.67 \pm 0.03\;\mu\text{s}$ (LIGO-band calibration). Convergence is established by the 256³ $\to$ 512³ extrapolation, which shifts $\Delta t_{\text{Bog}}$ by less than $0.2\%$.
+
+#### 3.5.1 The High-Resolution Dispersion Audit
+
+The $+16.67\;\text{s}$ LISA-band Bogoliubov lead ($+16.67\;\mu\text{s}$ at LIGO scales) constitutes the unique UHF signature for space-based gravitational-wave observatories. Establishing this prediction at hardware-verified precision requires a convergence study across lattice resolutions.
+
+**The 256³ resolution audit.** A systematic convergence study was conducted on RTX 3090 hardware across three lattice resolutions: 128³, 192³, and 256³, each evolved for $10^6$ Bogoliubov time-steps at double precision. The audited observable is the chromatic lead $\Delta t_{\text{lead}}(f_h)$ of a high-frequency probe pulse at $f_h = 1\;\text{kHz}$ relative to the carrier at $f_0 = 200\;\text{Hz}$, propagated through a gravastar interior of path length $L = R_S \ln(R_S / \xi) \approx 10\;\text{km}$ for a $30\,M_\odot$ remnant.
+
+| Resolution | $\Delta t_{\text{Bog}}$ ($\mu$s) | Sign | Convergence status |
+|---|---|---|---|
+| 128³ | $+15.21$ | positive | Box-mode aliasing at $k_{\max} = \pi / \Delta x$ |
+| 192³ | $+16.38$ | positive | Residual aliasing at $0.4\%$ |
+| 256³ | $+16.67 \pm 0.03$ | positive | Below noise floor |
+
+The systematic improvement from 128³ to 256³ reflects the suppression of box-mode aliasing: at coarse resolution, the highest-frequency mode $k_{\max}$ couples to the box mode $k_{\text{box}} = 2\pi / L_{\text{box}}$, creating a standing-wave resonance that partially cancels the Bogoliubov tail and reduces the measured lead. At 192³ and above, the box mode is detuned from $k_{\max}$ by more than one e-folding of the Silk-damping envelope, and the artifact vanishes.
+
+**Convergence confirmation.** The 256³ $\to$ 512³ Richardson extrapolation shifts $\Delta t_{\text{Bog}}$ by $< 0.2\%$, establishing full convergence at $>5\sigma$ confidence. The physical dispersion is *positive*: high-frequency components arrive *before* the low-frequency carrier, consistent with the monotonically increasing group velocity $v_g(f)$ of the Bogoliubov dispersion relation.
+
+**LISA observability.** For LISA-band massive binary inspirals ($f_0 \sim 3\;\text{mHz}$, $M \sim 10^6\,M_\odot$, $L \sim 10^7\;\text{km}$), the Bogoliubov lead scales as:
+
+$$\Delta t_{\text{LISA}} = \frac{2\pi^2 \hbar^2 L}{m^2 c_s^3}\,(f_h^2 - f_0^2) = +16.67\;\text{s}$$
+
+for a high-frequency component at $f_h = 30\;\text{mHz}$. This is well within LISA's temporal resolution ($\sim 0.1\;\text{s}$ at SNR $> 10$), making the pip-and-tail echo a primary science target for LISA's post-merger ringdown analysis. The $+16.67\;\text{s}$ LISA lead and the $+16.67\;\mu\text{s}$ LIGO calibration point are fixed by the condensate equation of state with zero free parameters.
 
 ---
 
@@ -614,7 +616,7 @@ $$\nabla^2 h_{0i} = -\frac{16\pi G}{c^4} T_{0i}$$
 
 where $T_{0i} = \rho_m c\, v_{s,i}$ is the momentum density.
 
-**Step 3: Propagating modes — the wave equation.** For time-dependent perturbations (gravitational waves), the linearized Cauchy momentum equation from Section 3.3, combined with the continuity equation $\partial_t \delta\rho + \rho_0 \nabla \cdot \delta\mathbf{v} = 0$, yields a coupled system. In the transverse-traceless (TT) gauge, the shear sector (Section 3.4) gives:
+**Step 3: Propagating modes — the wave equation.** For time-dependent perturbations (gravitational waves), the linearized Cauchy momentum equation from Section 3.2, combined with the continuity equation $\partial_t \delta\rho + \rho_0 \nabla \cdot \delta\mathbf{v} = 0$, yields a coupled system. In the transverse-traceless (TT) gauge, the shear sector (Section 3.4) gives:
 
 $$\rho_0\, \ddot{u}_{T,i} = \mu\, \nabla^2 u_{T,i}$$
 
@@ -939,7 +941,7 @@ The agreement is exact in the linear regime because the acoustic metric (Section
 
 #### 8.1c The Maxwell Relaxation Time and Spectral Knee
 
-While the superfluid propagation channel is lossless for frequencies well above the inverse Maxwell relaxation time ($\omega \gg 1/\tau_M$), the viscoelastic constitutive relation (Section 3.2) introduces a frequency-dependent response at ultralow frequencies. The complex shear modulus of the vacuum:
+While the superfluid propagation channel is lossless for frequencies well above the inverse Maxwell relaxation time ($\omega \gg 1/\tau_M$), the viscoelastic constitutive relation (Section 3.3) introduces a frequency-dependent response at ultralow frequencies. The complex shear modulus of the vacuum:
 
 $$\mu^*(\omega) = \mu \cdot \frac{i\omega\tau_M}{1 + i\omega\tau_M}$$
 
@@ -997,7 +999,7 @@ The ratio $\rho_{\text{vac}}^{\text{QFT}} / \rho_{\Lambda}^{\text{obs}} \sim 10^
 
 In the Unified Hydrodynamic Framework, the divergence is eliminated *ab initio* because the vacuum is not an abstract Fock space but a physical condensate with a minimum resolvable length scale: the healing length $\xi$. Below $\xi$, the superfluid cannot sustain independent oscillatory modes—the kinetic energy of gradients overwhelms the interaction energy, and the condensate enforces coherence. This provides a natural, non-arbitrary UV cutoff.
 
-The zero-point energy density of the superfluid is computed by summing only over the *physical* phonon modes with wavenumbers $k < k_{\max} = \pi/\xi$. Using the Bogoliubov dispersion relation (Section 3.1):
+The zero-point energy density of the superfluid is computed by summing only over the *physical* phonon modes with wavenumbers $k < k_{\max} = \pi/\xi$. Using the Bogoliubov dispersion relation (Section 3.5):
 
 $$\omega_k = \sqrt{c_s^2 k^2 + \left(\frac{\hbar k^2}{2m}\right)^2}$$
 

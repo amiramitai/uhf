@@ -902,6 +902,48 @@
                     </div>
                 </div>
 
+                <!-- Publications 1-7 -->
+                <div class="pt-4 mt-4 border-t border-neon/10">
+                    <p class="text-[10px] font-mono text-ember uppercase tracking-wider mb-3">Core Publications · SHA-256 (PDF)</p>
+                    <div class="grid gap-2">
+                        <div class="flex items-center gap-2">
+                            <span class="text-ember text-[10px] font-mono w-6 shrink-0">P1</span>
+                            <code class="hash-display text-ember/80 flex-1 text-[10px]">ee7a3f1bd942ea6195103551f93bdcd60806ee173dd6a0a148ad6eef58059af4</code>
+                            <a href="https://polygonscan.com/tx/0x49df3f4c059b46fd736bfffa4e87f2b97b358f140d4c318cb6f586db2e455b00" target="_blank" class="text-ember/40 hover:text-ember text-[10px] shrink-0">tx ↗</a>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-plasma text-[10px] font-mono w-6 shrink-0">P2</span>
+                            <code class="hash-display text-plasma/80 flex-1 text-[10px]">a9ac4e4eec6d15123de68509af669868b997fce8f2dffa66222ac5b1ace85db3</code>
+                            <a href="https://polygonscan.com/tx/0xcaf6f84bbf1309ac6c6edd4f33a42a6966e798bb692f65c30632b33b063e9b35" target="_blank" class="text-plasma/40 hover:text-plasma text-[10px] shrink-0">tx ↗</a>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-neonblue text-[10px] font-mono w-6 shrink-0">P3</span>
+                            <code class="hash-display text-neonblue/80 flex-1 text-[10px]">3f49fbf0ef49f3faef4c44b13ddfd8dee0d9557d84fd7b8b65daaf5994c1a126</code>
+                            <a href="https://polygonscan.com/tx/0xb20582f6f9b58603e8819b91f8e4a3beb8a7f0b585f90aef835ac73355e6ea16" target="_blank" class="text-neonblue/40 hover:text-neonblue text-[10px] shrink-0">tx ↗</a>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-neon text-[10px] font-mono w-6 shrink-0">P4</span>
+                            <code class="hash-display text-neon/80 flex-1 text-[10px]">6736b5b3d00e7f4f0035b4088235b034e87e3e5a4edc322965b56ff127a6b8b1</code>
+                            <a href="https://polygonscan.com/tx/0x995b06616d6e2d3a18bf10ddf97878a258eaa64b130f9c9f0f2df84ac5945e94" target="_blank" class="text-neon/40 hover:text-neon text-[10px] shrink-0">tx ↗</a>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-glow text-[10px] font-mono w-6 shrink-0">P5</span>
+                            <code class="hash-display text-glow/80 flex-1 text-[10px]">638fd38aec72d4edd4c9f763eead924bcd3beddf7802cae9f4d5d546d12ad033</code>
+                            <a href="https://polygonscan.com/tx/0x14525487f2cd38421300b47ece250d916d1e121925493af9a41269e7173dae3f" target="_blank" class="text-glow/40 hover:text-glow text-[10px] shrink-0">tx ↗</a>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-plasma text-[10px] font-mono w-6 shrink-0">P6</span>
+                            <code class="hash-display text-plasma/80 flex-1 text-[10px]">8bf7141542e8571115d4db408ea17d7bcfff498a31ac852676f76049ced707d9</code>
+                            <a href="https://polygonscan.com/tx/0x2cda05dc783537526f55ca8d7fce94ad2ef9a28ecd7b14489f8679bcb3eacea7" target="_blank" class="text-plasma/40 hover:text-plasma text-[10px] shrink-0">tx ↗</a>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-ember text-[10px] font-mono w-6 shrink-0">P7</span>
+                            <code class="hash-display text-ember/80 flex-1 text-[10px]">b2dc777384543de3737a96b6026cdeafa649cf0f4ec3d85afc5e1ef8f2cfced1</code>
+                            <a href="https://polygonscan.com/tx/0xbd2e24ff998f6c88971461e7a5f3f023544a1b0c28be4c93fd49e701f6cc1238" target="_blank" class="text-ember/40 hover:text-ember text-[10px] shrink-0">tx ↗</a>
+                        </div>
+                    </div>
+                </div>
+
                 <div>
                     <p class="text-[10px] font-mono text-gray-600 uppercase tracking-wider mb-1">UHFPaperRegistry Contract</p>
                     <div class="flex items-center gap-2">
@@ -931,6 +973,48 @@
         <div class="glass rounded-2xl p-8 mb-6">
             <h4 class="text-white font-semibold mb-4">On-Chain Version History</h4>
             <div class="space-y-3">
+                <div class="flex items-center gap-3 text-xs font-mono">
+                    <span class="text-ember">v10.1-P4</span>
+                    <span class="text-gray-600">Paper 4 PDF · Block #84488974</span>
+                    <code class="text-gray-400 hidden sm:inline">6736b5b3...b8b1</code>
+                    <a href="https://polygonscan.com/tx/0x995b06616d6e2d3a18bf10ddf97878a258eaa64b130f9c9f0f2df84ac5945e94" target="_blank" class="text-ember/60 hover:text-ember ml-auto">tx ↗</a>
+                </div>
+                <div class="flex items-center gap-3 text-xs font-mono">
+                    <span class="text-ember">v10.1-P5</span>
+                    <span class="text-gray-600">Paper 5 PDF · Block #84488978</span>
+                    <code class="text-gray-400 hidden sm:inline">638fd38a...d033</code>
+                    <a href="https://polygonscan.com/tx/0x14525487f2cd38421300b47ece250d916d1e121925493af9a41269e7173dae3f" target="_blank" class="text-ember/60 hover:text-ember ml-auto">tx ↗</a>
+                </div>
+                <div class="flex items-center gap-3 text-xs font-mono">
+                    <span class="text-ember">v10.1-P6</span>
+                    <span class="text-gray-600">Paper 6 PDF · Block #84488982</span>
+                    <code class="text-gray-400 hidden sm:inline">8bf71415...07d9</code>
+                    <a href="https://polygonscan.com/tx/0x2cda05dc783537526f55ca8d7fce94ad2ef9a28ecd7b14489f8679bcb3eacea7" target="_blank" class="text-ember/60 hover:text-ember ml-auto">tx ↗</a>
+                </div>
+                <div class="flex items-center gap-3 text-xs font-mono">
+                    <span class="text-ember">v10.1-P7</span>
+                    <span class="text-gray-600">Paper 7 PDF · Block #84488985</span>
+                    <code class="text-gray-400 hidden sm:inline">b2dc7773...ced1</code>
+                    <a href="https://polygonscan.com/tx/0xbd2e24ff998f6c88971461e7a5f3f023544a1b0c28be4c93fd49e701f6cc1238" target="_blank" class="text-ember/60 hover:text-ember ml-auto">tx ↗</a>
+                </div>
+                <div class="flex items-center gap-3 text-xs font-mono">
+                    <span class="text-neon">v10.0-P1</span>
+                    <span class="text-gray-600">Paper 1 PDF · Block #84472052</span>
+                    <code class="text-gray-400 hidden sm:inline">ee7a3f1b...af4</code>
+                    <a href="https://polygonscan.com/tx/0x49df3f4c059b46fd736bfffa4e87f2b97b358f140d4c318cb6f586db2e455b00" target="_blank" class="text-neon/60 hover:text-neon ml-auto">tx ↗</a>
+                </div>
+                <div class="flex items-center gap-3 text-xs font-mono">
+                    <span class="text-neon">v10.0-P2</span>
+                    <span class="text-gray-600">Paper 2 PDF · Block #84472058</span>
+                    <code class="text-gray-400 hidden sm:inline">a9ac4e4e...5db3</code>
+                    <a href="https://polygonscan.com/tx/0xcaf6f84bbf1309ac6c6edd4f33a42a6966e798bb692f65c30632b33b063e9b35" target="_blank" class="text-neon/60 hover:text-neon ml-auto">tx ↗</a>
+                </div>
+                <div class="flex items-center gap-3 text-xs font-mono">
+                    <span class="text-neon">v10.0-P3</span>
+                    <span class="text-gray-600">Paper 3 PDF · Block #84472061</span>
+                    <code class="text-gray-400 hidden sm:inline">3f49fbf0...a126</code>
+                    <a href="https://polygonscan.com/tx/0xb20582f6f9b58603e8819b91f8e4a3beb8a7f0b585f90aef835ac73355e6ea16" target="_blank" class="text-neon/60 hover:text-neon ml-auto">tx ↗</a>
+                </div>
                 <div class="flex items-center gap-3 text-xs font-mono">
                     <span class="text-neon">v10.0-I</span>
                     <span class="text-gray-600">Part I · Block #84466587</span>
@@ -1453,13 +1537,13 @@
     <div class="max-w-4xl mx-auto px-6">
         <div class="flex items-center gap-3 mb-8">
             <div class="h-px flex-1 bg-gradient-to-r from-transparent to-neonblue/30"></div>
-            <h2 class="text-xs font-mono tracking-[0.3em] uppercase text-neonblue">Decentralized Access</h2>
+            <h2 class="text-xs font-mono tracking-[0.3em] uppercase text-neonblue">Open Access</h2>
             <div class="h-px flex-1 bg-gradient-to-l from-transparent to-neonblue/30"></div>
         </div>
 
         <h3 class="font-serif text-3xl sm:text-4xl font-bold text-white text-center mb-4">Blockchain Verification</h3>
         <p class="text-gray-500 text-center max-w-2xl mx-auto mb-8 text-sm sm:text-base">
-            Every monograph volume, addendum, and simulation artifact is SHA-256 hashed and immutably registered on the Polygon blockchain.
+            Every monograph, paper, addendum, and simulation artifact is SHA-256 hashed and immutably registered on the Polygon blockchain.
             Verify any document against its on-chain record below.
         </p>
 
@@ -1628,6 +1712,98 @@
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                     On-Chain Proof ↗
                 </a>
+            </div>
+        </div>
+
+        <!-- Core Publications 1-7 -->
+        <div class="glass rounded-2xl p-8 mt-6">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 rounded-xl bg-ember/20 flex items-center justify-center">
+                    <span class="text-ember font-bold text-sm">1–7</span>
+                </div>
+                <div class="flex-1">
+                    <h4 class="text-white font-semibold">Core Publications — On-Chain Verified PDFs</h4>
+                    <p class="text-gray-600 text-xs">All 7 papers are SHA-256 hashed and immutably registered on Polygon. Click any paper to verify.</p>
+                </div>
+            </div>
+
+            <div class="space-y-3">
+                <!-- Paper 1 -->
+                <div class="flex items-center gap-3 p-3 rounded-xl bg-white/[0.02] border border-ember/10 hover:border-ember/30 transition-colors">
+                    <div class="w-8 h-8 rounded-lg bg-ember/20 flex items-center justify-center text-ember font-bold text-xs shrink-0">1</div>
+                    <div class="flex-1 min-w-0">
+                        <p class="text-white text-sm font-medium">Inertia and Mass (LBM)</p>
+                        <code class="text-ember/60 text-[9px] font-mono">ee7a3f1b...af4</code>
+                    </div>
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/papers/paper1/Paper1_Emergent_Inertia_LBM.pdf" target="_blank" rel="noopener" class="shrink-0 px-3 py-1.5 rounded-lg bg-ember/10 border border-ember/20 text-ember text-[10px] font-medium hover:bg-ember/20 transition-all">PDF ↗</a>
+                    <a href="https://polygonscan.com/tx/0x49df3f4c059b46fd736bfffa4e87f2b97b358f140d4c318cb6f586db2e455b00" target="_blank" rel="noopener" class="shrink-0 px-3 py-1.5 rounded-lg bg-plasma/10 border border-plasma/20 text-plasma text-[10px] font-medium hover:bg-plasma/20 transition-all">tx ↗</a>
+                </div>
+
+                <!-- Paper 2 -->
+                <div class="flex items-center gap-3 p-3 rounded-xl bg-white/[0.02] border border-plasma/10 hover:border-plasma/30 transition-colors">
+                    <div class="w-8 h-8 rounded-lg bg-plasma/20 flex items-center justify-center text-plasma font-bold text-xs shrink-0">2</div>
+                    <div class="flex-1 min-w-0">
+                        <p class="text-white text-sm font-medium">General Relativity and Gravitational Waves</p>
+                        <code class="text-plasma/60 text-[9px] font-mono">a9ac4e4e...5db3</code>
+                    </div>
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/papers/paper2/Paper2_Effective_GR_Viscoelastic.pdf" target="_blank" rel="noopener" class="shrink-0 px-3 py-1.5 rounded-lg bg-ember/10 border border-ember/20 text-ember text-[10px] font-medium hover:bg-ember/20 transition-all">PDF ↗</a>
+                    <a href="https://polygonscan.com/tx/0xcaf6f84bbf1309ac6c6edd4f33a42a6966e798bb692f65c30632b33b063e9b35" target="_blank" rel="noopener" class="shrink-0 px-3 py-1.5 rounded-lg bg-plasma/10 border border-plasma/20 text-plasma text-[10px] font-medium hover:bg-plasma/20 transition-all">tx ↗</a>
+                </div>
+
+                <!-- Paper 3 -->
+                <div class="flex items-center gap-3 p-3 rounded-xl bg-white/[0.02] border border-neonblue/10 hover:border-neonblue/30 transition-colors">
+                    <div class="w-8 h-8 rounded-lg bg-neonblue/20 flex items-center justify-center text-neonblue font-bold text-xs shrink-0">3</div>
+                    <div class="flex-1 min-w-0">
+                        <p class="text-white text-sm font-medium">The Acoustic Hawking Analogue</p>
+                        <code class="text-neonblue/60 text-[9px] font-mono">3f49fbf0...a126</code>
+                    </div>
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/papers/paper3/Paper3_Hawking_Analogue.pdf" target="_blank" rel="noopener" class="shrink-0 px-3 py-1.5 rounded-lg bg-ember/10 border border-ember/20 text-ember text-[10px] font-medium hover:bg-ember/20 transition-all">PDF ↗</a>
+                    <a href="https://polygonscan.com/tx/0xb20582f6f9b58603e8819b91f8e4a3beb8a7f0b585f90aef835ac73355e6ea16" target="_blank" rel="noopener" class="shrink-0 px-3 py-1.5 rounded-lg bg-plasma/10 border border-plasma/20 text-plasma text-[10px] font-medium hover:bg-plasma/20 transition-all">tx ↗</a>
+                </div>
+
+                <!-- Paper 4 -->
+                <div class="flex items-center gap-3 p-3 rounded-xl bg-white/[0.02] border border-neon/10 hover:border-neon/30 transition-colors">
+                    <div class="w-8 h-8 rounded-lg bg-neon/20 flex items-center justify-center text-neon font-bold text-xs shrink-0">4</div>
+                    <div class="flex-1 min-w-0">
+                        <p class="text-white text-sm font-medium">Subhalo Stabilization (Dark Matter)</p>
+                        <code class="text-neon/60 text-[9px] font-mono">6736b5b3...b8b1</code>
+                    </div>
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/papers/paper4/Paper4_Superfluid_Cosmology.pdf" target="_blank" rel="noopener" class="shrink-0 px-3 py-1.5 rounded-lg bg-ember/10 border border-ember/20 text-ember text-[10px] font-medium hover:bg-ember/20 transition-all">PDF ↗</a>
+                    <a href="https://polygonscan.com/tx/0x995b06616d6e2d3a18bf10ddf97878a258eaa64b130f9c9f0f2df84ac5945e94" target="_blank" rel="noopener" class="shrink-0 px-3 py-1.5 rounded-lg bg-plasma/10 border border-plasma/20 text-plasma text-[10px] font-medium hover:bg-plasma/20 transition-all">tx ↗</a>
+                </div>
+
+                <!-- Paper 5 -->
+                <div class="flex items-center gap-3 p-3 rounded-xl bg-white/[0.02] border border-glow/10 hover:border-glow/30 transition-colors">
+                    <div class="w-8 h-8 rounded-lg bg-glow/20 flex items-center justify-center text-glow font-bold text-xs shrink-0">5</div>
+                    <div class="flex-1 min-w-0">
+                        <p class="text-white text-sm font-medium">Breathing Modes (Higgs Analogue)</p>
+                        <code class="text-glow/60 text-[9px] font-mono">638fd38a...d033</code>
+                    </div>
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/papers/paper5/Paper5_Topological_Standard_Model.pdf" target="_blank" rel="noopener" class="shrink-0 px-3 py-1.5 rounded-lg bg-ember/10 border border-ember/20 text-ember text-[10px] font-medium hover:bg-ember/20 transition-all">PDF ↗</a>
+                    <a href="https://polygonscan.com/tx/0x14525487f2cd38421300b47ece250d916d1e121925493af9a41269e7173dae3f" target="_blank" rel="noopener" class="shrink-0 px-3 py-1.5 rounded-lg bg-plasma/10 border border-plasma/20 text-plasma text-[10px] font-medium hover:bg-plasma/20 transition-all">tx ↗</a>
+                </div>
+
+                <!-- Paper 6 -->
+                <div class="flex items-center gap-3 p-3 rounded-xl bg-white/[0.02] border border-plasma/10 hover:border-plasma/30 transition-colors">
+                    <div class="w-8 h-8 rounded-lg bg-plasma/20 flex items-center justify-center text-plasma font-bold text-xs shrink-0">6</div>
+                    <div class="flex-1 min-w-0">
+                        <p class="text-white text-sm font-medium">Asymptotic Freedom (QCD Analogue)</p>
+                        <code class="text-plasma/60 text-[9px] font-mono">8bf71415...07d9</code>
+                    </div>
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/papers/paper6/Paper6_Topological_Chromodynamics.pdf" target="_blank" rel="noopener" class="shrink-0 px-3 py-1.5 rounded-lg bg-ember/10 border border-ember/20 text-ember text-[10px] font-medium hover:bg-ember/20 transition-all">PDF ↗</a>
+                    <a href="https://polygonscan.com/tx/0x2cda05dc783537526f55ca8d7fce94ad2ef9a28ecd7b14489f8679bcb3eacea7" target="_blank" rel="noopener" class="shrink-0 px-3 py-1.5 rounded-lg bg-plasma/10 border border-plasma/20 text-plasma text-[10px] font-medium hover:bg-plasma/20 transition-all">tx ↗</a>
+                </div>
+
+                <!-- Paper 7 -->
+                <div class="flex items-center gap-3 p-3 rounded-xl bg-white/[0.02] border border-ember/10 hover:border-ember/30 transition-colors">
+                    <div class="w-8 h-8 rounded-lg bg-ember/20 flex items-center justify-center text-ember font-bold text-xs shrink-0">7</div>
+                    <div class="flex-1 min-w-0">
+                        <p class="text-white text-sm font-medium">CHSH Violation (Quantum Entanglement)</p>
+                        <code class="text-ember/60 text-[9px] font-mono">b2dc7773...ced1</code>
+                    </div>
+                    <a href="https://github.com/amiramitai/uhf/blob/main/uhf_physics/papers/paper7/Paper7_Quantum_Entanglement.pdf" target="_blank" rel="noopener" class="shrink-0 px-3 py-1.5 rounded-lg bg-ember/10 border border-ember/20 text-ember text-[10px] font-medium hover:bg-ember/20 transition-all">PDF ↗</a>
+                    <a href="https://polygonscan.com/tx/0xbd2e24ff998f6c88971461e7a5f3f023544a1b0c28be4c93fd49e701f6cc1238" target="_blank" rel="noopener" class="shrink-0 px-3 py-1.5 rounded-lg bg-plasma/10 border border-plasma/20 text-plasma text-[10px] font-medium hover:bg-plasma/20 transition-all">tx ↗</a>
+                </div>
             </div>
         </div>
     </div>
