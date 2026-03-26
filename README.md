@@ -106,7 +106,7 @@ src/                              — Landing page (Svelte/Vite)
 
 ## On-Chain Log
 
-All registration events are appended to [`deployments/scripts/on-chain-log.txt`](deployments/scripts/on-chain-log.txt).
+All registration events are appended to [`deployment/scripts/on-chain-log.txt`](deployment/scripts/on-chain-log.txt).
 
 ---
 
