@@ -867,7 +867,7 @@
         <div class="glass-neon rounded-2xl p-8 mb-6 border-neon/20">
             <div class="flex items-center gap-3 mb-6">
                 <div class="w-3 h-3 rounded-full bg-neon animate-pulse"></div>
-                <h4 class="text-white font-semibold">Latest: v10.0 — Publication Pipeline + CFD Verification</h4>
+                <h4 class="text-white font-semibold">Latest: v9.2 — Lagrangian-First Restructure</h4>
                 <span class="ml-auto px-3 py-1 rounded-full bg-neon/10 border border-neon/30 text-neon text-[10px] font-mono">LIVE ON POLYGON</span>
             </div>
 
@@ -875,8 +875,8 @@
                 <div>
                     <p class="text-[10px] font-mono text-gray-600 uppercase tracking-wider mb-1">Part I — The Physical Core · SHA-256</p>
                     <div class="flex items-center gap-2">
-                        <code class="hash-display text-neon flex-1">6a0894ffe8165a2fde23d3fc2bf373bf9e27f208a122532ed7e6296d4dc68986</code>
-                        <button onclick={() => copyToClipboard('6a0894ffe8165a2fde23d3fc2bf373bf9e27f208a122532ed7e6296d4dc68986')} class="shrink-0 p-2 rounded-lg hover:bg-white/5 transition-colors group" title="Copy">
+                        <code class="hash-display text-neon flex-1">4bf55aa9dbb68c4238ce65ce6ffde546643a6866641887383f0932e3853212ef</code>
+                        <button onclick={() => copyToClipboard('4bf55aa9dbb68c4238ce65ce6ffde546643a6866641887383f0932e3853212ef')} class="shrink-0 p-2 rounded-lg hover:bg-white/5 transition-colors group" title="Copy">
                             <svg class="w-4 h-4 text-gray-500 group-hover:text-neon transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
                         </button>
                     </div>
@@ -973,6 +973,12 @@
         <div class="glass rounded-2xl p-8 mb-6">
             <h4 class="text-white font-semibold mb-4">On-Chain Version History</h4>
             <div class="space-y-3">
+                <div class="flex items-center gap-3 text-xs font-mono">
+                    <span class="text-neon">v9.2-I</span>
+                    <span class="text-gray-600">Part I §3 Restructure · Block #84661202</span>
+                    <code class="text-gray-400 hidden sm:inline">4bf55aa9...12ef</code>
+                    <a href="https://polygonscan.com/tx/0x26592fc5794639610f4889d72b475edfcc7b2dba912533591c6a5d7a8bbdbf77" target="_blank" class="text-neon/60 hover:text-neon ml-auto">tx ↗</a>
+                </div>
                 <div class="flex items-center gap-3 text-xs font-mono">
                     <span class="text-ember">v10.1-P4</span>
                     <span class="text-gray-600">Paper 4 PDF · Block #84488974</span>
@@ -1254,11 +1260,11 @@
 
         <!-- Timestamp visual -->
         <div class="glass-neon rounded-2xl p-6 text-center">
-            <p class="text-[10px] font-mono text-neon/60 uppercase tracking-wider mb-2">Latest Seal — v10.0 Publication Pipeline + CFD Verification</p>
+            <p class="text-[10px] font-mono text-neon/60 uppercase tracking-wider mb-2">Latest Seal — v9.2 Lagrangian-First Restructure (Part I)</p>
             <p class="font-mono text-neon text-lg sm:text-xl font-semibold text-glow">
-                March 21, 2026 · v10.0 — Publication Pipeline &amp; CFD Verification
+                March 25, 2026 · v9.2 — Lagrangian-First Restructure · Block #84661202
             </p>
-            <p class="text-gray-600 text-xs mt-2">Polygon PoS · Chain ID 137 · UHFPaperRegistry · 65+ seals (3 monographs + addendum + simulation + 7 publications)</p>
+            <p class="text-gray-600 text-xs mt-2">Polygon PoS · Chain ID 137 · UHFPaperRegistry · 66+ seals (3 monographs + addendum + simulation + 7 publications)</p>
         </div>
     </div>
 </section>
